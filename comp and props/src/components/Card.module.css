@@ -1,0 +1,4 @@
+.haha{
+    color: blueviolet !important;
+    /* it is working because of !important otherwise app.css will overwrite it */
+}
