@@ -1,16 +1,22 @@
-html, body {
+html, body{
     height: 100%;
     width: 100%;
 }
 
-.parent{
+#root{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    background-color: #111;
+}
+
+.parent{
+
     background-color: black;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .card{
@@ -24,9 +30,7 @@ html, body {
 
 
 }
-.center{
-   
-}
+
 
 .card .top {
     display: flex;
